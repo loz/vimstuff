@@ -1,4 +1,4 @@
-Useful Settings:
+#Useful Settings:
 
 #expand tabs into spaces
 set expandtabs
@@ -12,8 +12,30 @@ set hlsearch
 #highlight and incrementally search
 set incsearch
 
-Search and Replace
+#don't wrap each line
+set nowrap
+
+#enable mouse (xterm, not sure about gnome)
+set mouse=a
+
+#Search and Replace
 /mysearch/
 now replace
 :%s//new_replacement/g
 
+#split and find a file matching a file in tree
+:sf _regex_
+(Ctrl-W to switch windows)
+
+#find and open
+:fin _regex_ 
+
+#to type keys on your keyboard like enter:
+#Ctrl-V then key press works in map
+
+#Tab Support!
+:tabnew
+#can swich with mouse, or CTRL-PAGEUP/DOWN
+:tabn (next)
+:tabp (previous)
+:close will close
