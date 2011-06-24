@@ -1,0 +1,19 @@
+Useful Settings:
+
+#expand tabs into spaces
+set expandtabs
+
+#set indent width using << or >>
+set shiftwidth=2
+
+#set highlight search terms
+set hlsearch
+
+#highlight and incrementally search
+set incsearch
+
+Search and Replace
+/mysearch/
+now replace
+:%s//new_replacement/g
+
