@@ -1,7 +1,7 @@
 #Useful Settings:
 
 #expand tabs into spaces
-set expandtabs
+set expandtab
 
 #set indent width using << or >>
 set shiftwidth=2
